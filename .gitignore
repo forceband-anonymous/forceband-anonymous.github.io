@@ -1,0 +1,18 @@
+# Dev tooling — not part of the published site
+scripts/
+serve.py
+
+# Promo material — not served by the site
+static/twitter/
+
+# Source/master video files; the web-ready mp4s in static/videos/ are what the site uses
+*.m4v
+*.mov
+
+# Unused oversized vector export; the site uses the rasterized images instead
+static/images/hardware_design.svg
+
+# OS / editor junk
+.DS_Store
+*.swp
+__pycache__/
